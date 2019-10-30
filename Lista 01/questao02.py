@@ -1,0 +1,5 @@
+kmInicial = float(input("Informe o quilômetro de partida:  "))
+kmFinal = float(input("Informe o quilômetro final:  "))
+litroGasto = float(input("Informe a quantidade de litros gastos: "))
+consumoMedio = round(abs((kmFinal-kmInicial)/litroGasto))
+print("A quantidade média de consumo é: ", consumoMedio, " km/L")

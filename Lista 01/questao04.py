@@ -1,0 +1,11 @@
+comprimento1 = float(input("Informe o comprimento do cômodo 1: "))
+largura1 = float(input("Informe a largura do cômodo 1: ")) 
+comprimento2 = float(input("Informe o comprimento do cômodo 2: "))
+largura2 = float(input("Informe a largura do cômodo 2: ")) 
+comprimento3 = float(input("Informe o comprimento do cômodo 3: "))
+largura3 = float(input("Informe a largura do cômodo 3: "))  
+comprimento4 = float(input("Informe o comprimento do cômodo 4: "))
+largura4 = float(input("Informe a largura do cômodo 4: "))
+
+areaTotal= (comprimento1*largura1) + (comprimento2*largura2) + (comprimento3*largura3) + (comprimento4*largura4)
+print("A área total da casa é: ", areaTotal, " m²")  
